@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/844673928c.js" crossorigin="anonymous"></script>
+   <!-- <script src="./code.js"></script>-->
+
+    <title>vaccinations</title>     
+</head>
+<body>
+    
+<!-- Titulo-->
+    <header>
+       <div id="vaccine"><p>Vaccination</p></div>
+           <ul>
+               <li id="B_database"><a href="#">Database</a></li>
+               <li id="B_education"><a href="#">Educación</a></li>
+               <li id="B_news"><a href="#">Noticias</a></li>
+               <li id="B_regulation"><a href="#">Regulaciones</a></li>
+               <li id="B_hoax"><button type="button" class="default-button">Hoax buster</button></li>
+            </ul>
+    </header>
+
+
+
+   
+    <!--Seccion 1 pelear contra el virus-->
+    
+    <section>
+        <div class="sqrImage">
+            <div id="Fight" class="espacio">
+                
+                <h1>Derrota al virus con la<br> vacuna</h1>
+                
+                <p id="titulo">
+                    Detengamos esta pandemia matando al virus con
+                    la vacuna, no dejes que tú y tu familia se 
+                    infecten.
+                </p>
+
+                <!--Lista con emotes-->
+                <ul>
+                    <li>
+                        <span style="font-size: 1em; color: #FFD012;">
+                            <i class="fa-solid fa-shield"></i>
+                        </span> La mejor protección
+                    </li>
+                    <li>
+                        <span style="font-size: 1em; color: #FFD012;">
+                        <i class="fa-solid fa-star"></i>
+                        </span> Seleccion de vacunas
+                    </li>
+                </ul>
+            </div>
+            <img src="./assets/doctor1.png" alt="">
+        </div>
+
+<!--Calendario de vacunacion-->
+   
+        <div class="notif">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Localización <br>
+                    <select id="estados" name="estados">
+                        <option value="Aguascalientes">Aguascalientes</option>
+                        <option value="Baja California">Baja California</option>
+                        <option value="Baja California Sur">Baja California Sur</option>
+                        <option value="Campeche">Campeche</option>
+                        <option value="Chiapas">Chiapas</option>
+                        <option value="Chihuahua">Chihuahua</option>
+                        <option value="CDMX">CDMX</option>
+                        <option value="Coahuila">Coahuila</option>
+                        <option value="Colima">Colima</option>
+                    </select>
+                </li>
+                <li>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    Fecha <br>
+                    <input type="datetime-local">
+                <li>
+                    <i class="fa-solid fa-syringe"></i>
+                    Tipo de vacuna <br>
+                    <select id="vacuna" name="vacuna">
+                        <option value="Sinovac">Sinovac</option>
+                        <option value="Astrazeneca">Astrazeneca</option>
+                        <option value="Moderna">Moderna</option>
+                        <option value="Pfizer">Pfizer</option>
+                    </select>
+                </li>
+                <li><button class="default-button">Enviar</button></li>
+            </ul>
+        </div>
+        <img src="./assets/vacunas.JPG" alt="" width="100%">
+    </section>
+
+
+
+<section class="l-division">
+    <div class="triangulo"></div>
+    <div class="line"></div>
+</section>
+
+
+
+
+    <section>
+        <div id="why-should" class="espacio">
+            <h2>Por qué debería de vacunarme?</h2>
+            <p>
+                Para evitar contagiarse del COVID-19, identifica los siguientes 4 beneficios
+                de la vacuna COVID-19:
+            </p>
+        </div>
+        
+        <div class="sqrAround">
+        
+
+            <!--Fieldset de spread -->
+  
+            <fieldset>
+                <p>
+                    <span style="font-size: 4em;">
+                        <i class="fa-solid fa-viruses"></i> <br>
+                    </span>
+                </p>
+                <h3>Minimiza el esparcimiento del virus</h3>
+                <p>
+                    Se ha probado la efectividad de las vacunas para prevenir
+                    que alguien se contagie con el Coronavirus.
+                </p>
+            </fieldset>
+
+            <!--Fieldset de antibodies-->
+           
+            <fieldset>
+                <span style="font-size: 4em;">
+                    <i class="fa-solid fa-shield-virus"></i> <br>
+                    </span>
+                </p>
+                <h3>Crear antivirus</h3>
+                <p>
+                    Las vacunas contra el COVID-19 han probado que ayudan 
+                    a la respuesta de tu sistema inmunológico.
+                </p>
+            </fieldset>
+        
+            <!--Fieldset de Protecting-->
+            
+
+            <fieldset>
+                <span style="font-size: 4em;">
+                    <i class="fa-solid fa-users"></i> <br>
+                    </span>
+                </p>
+                <h3>Proteger a la gente alrededor</h3>
+                <p>
+                    Los beneficios de la vacuna COVID-19 también ayudan a proteger a
+                    las personas que se encuentran a tu alrededor
+                </p>
+            </fieldset>
+
+            <!--Fieldset de Group-->
+
+            <fieldset>
+                <span style="font-size: 4em;">
+                    <i class="fa-solid fa-comment-medical"></i> <br>
+                    </span>
+                </p>
+                <h3>Crear inmunidad de grupo</h3>
+                <p>
+                    La vacuna COVID-19 agiliza el proceso de la inmunidad de grupo, 
+                    y reducir los casos.
+                </p>
+            </fieldset>
+        </div>
+    </section>
+
+    <section class="r-division">
+        <div class="line"></div>
+        <div class="triangulo"></div>
+    </section>
+
+    <!--Preparacion antes de la vacuna-->
+
+    <section>
+        <div class="izq">
+            <aside>
+                <img src="./assets/doctor2.png" alt="" width="100%">
+            </aside>
+            <div class="espacio">
+                <h2>Preparacion para antes de la vacuna</h2>
+                <p>El éxito de la vacuna está fuertemente influenciada por la fuerza de tu 
+                    sistema inmunológico, por lo tanto: 
+                </p>
+
+                <div class="desplegable">
+                    <button class="accordion">
+                        <h3><span style="font-size: 2em;">
+                            <i class="fa-solid fa-shield-virus"></i>
+                            </span> 
+                            Evita bebidas alcoholicas</h3></button>
+                    <div class="panel">
+                        <p>
+                            Esto con el fin de que tu condición esté lo mejor posible
+                            y soportes la vacuna.
+                        </p>
+                    </div>
+                </div>
+                <div class="desplegable">
+                    <button class="accordion">
+                        <h3>
+                            <span style="font-size: 2em;">
+                                <i class="fa-solid fa-square-xmark"></i>
+                            </span>
+                            Evita el estrés
+                        </h3>
+                    </button>
+                    <div class="panel">
+                        <p>
+                            El estrés tiene un profundo efecto en el trabajo de tu sistema
+                            inmunológico. Además de eso, el estrés prolongado puede incremental
+                            los niveles de cortisol y el estrés oxidativo en el cuerpo.
+                        </p>
+                    </div>
+                </div>
+                
+                
+                <div class="desplegable">
+                    <button class="accordion">
+                        <h3>
+                            <span style="font-size: 2em;">
+                                <i class="fa-solid fa-briefcase-medical"></i>                            </span>
+                            Come saludable
+                        </h3>
+                    </button>
+                    <div class="panel">
+                        <p>La alimentación tiene un efecto directo al hablar de la salud, por 
+                            lo que es necesario tener buenos hábitos alimenticios, y mejorar
+                            tu sistema inmunológico.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="desplegable">
+                    <button class="accordion">
+                        <h3>
+                            <span style="font-size: 2em;">
+                                <i class="fa-solid fa-bed"></i>
+                            </span>
+                            Duerme suficiente
+                        </h3>
+                    </button>
+                    <div class="panel">
+                        <p>
+                            La falta de sueño es un problema grave que existe en estos tiempos,
+                            y no dormir lo suficiente a la larga acarrea problemas desde irritabilidad
+                            hasta falta de concentración.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="desplegable">
+                    <button class="accordion">
+                        <h3>
+                            <span style="font-size: 2em;">
+                                <i class="fa-solid fa-dumbbell"></i>                            
+                            </span>
+                            Ejercítate
+                        </h3>
+                    </button>
+                    <div class="panel">
+                        <p>
+                            Para tener un buen sistema inmune, además de todo lo anterior, 
+                            necesitarás complementarlo con actividad física, llegándote a sentir
+                            mejor y más saludable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contacto de emergencia-->
+
+    <section class="l-division">
+        <div class="triangulo"></div>
+        <div class="line"></div>
+    </section>
+
+    <section>
+        <div class="espacio">
+            <h2>Contacto de emergencia</h2>
+            <p>Contáctanos en cualquiera de las opciones de abajo si algún familiar 
+                no se siente bien y tiene síntomas similares a los del COVID-19,
+                asegúrate de tomar tus precauciones antes de reportarse con nosotros:
+            </p>
+        </div>
+        <div class="sqrImage">
+            <div class="mitad">
+                    <fieldset class="emergencia">
+                        <h3><span style="font-size: 3rem;">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+                    Llamada <br>
+                        <span style="font-size: small;">656-123-4567</span>
+                    </h3>
+                    <button class="white-button" onclick="alert('Se hace la llamada');">Llamar ahora</button>
+                </fieldset>
+
+                <fieldset class="emergencia">
+                    <h3><span style="font-size: 3rem;">
+                        <i class="fa-solid fa-comment-dots"></i>
+                        </span>
+                    Chat <br>
+                    <span style="font-size: small;">021.123.145.14</span>
+                    </h3>
+                    <button class="white-button" onclick="alert('Se abre el chat');">Chatear ahora</button>
+                </fieldset><br>
+
+                    <fieldset class="emergencia">
+                        <h3><span style="font-size: 3rem;">
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                        Videollamada <br>
+                            <span style="font-size: small;">021.123.145.14</span>
+                        </h3>
+                        <button class="white-button" onclick="alert('Se hace la videollamada');">Videollamar ahora</button>
+                    </fieldset>
+                    
+                    <fieldset class="emergencia">
+                        <h3><span style="font-size: 3rem;">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                            Mensaje <br>
+                            <span style="font-size: small;">021.123.145.14</span>
+                        </h3>
+                        <button class="white-button" onclick="alert('Se envía el mensaje');">Mensajear ahora</button>
+                    </fieldset>
+                </div>
+                <aside>
+                    <img src="./assets/doctor3.png" alt="" width="100%">
+                </aside>    
+                
+            </div>
+    </section>
+
+
+
+    <footer>
+        <div id="meta">
+            <h3>Vacunación</h3> <br>
+            <p> Nuestra meta es liberar <br> al mundo de la actual pandemia</p>
+        </div>
+        <div >
+            <ul>
+                <li><h3>Acerca de</h3></li><br>
+                <li> <a href="#">Acerca de nosotros</a></li><br>
+                <li> <a href="#">Características</a></li><br>
+                <li> <a href="#"> Noticias y blogs</a></li><br>
+            </ul>
+            <ul>
+                <li><h3>Compañia</h3></li><br>
+                <li> <a href="#"> ¿Cómo trabajamos?</a></li><br>
+                <li> <a href="#"> Capital </a></li><br>
+                <li> <a href="#"> Seguridad </a></li><br>
+            </ul>
+            <ul>
+                <li><h3>Soporte</h3></li><br>
+                <li> <a href="#"> FAQs </a></li><br>
+                <li> <a href="#"> Centro de soporte </a></li><br>
+                <li> <a href="#"> Contáctanos</a></li><br>
+            </ul>     
+        </div>
+        
+    </footer>
+    
+    <script src="code.js"></script>
+</body>
